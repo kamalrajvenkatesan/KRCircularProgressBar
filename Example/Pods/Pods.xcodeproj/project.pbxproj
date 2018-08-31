@@ -10,7 +10,7 @@
 		1AE04075452255B8823EC4C184D2900B /* Pods-KRCircularProgressBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9F2F341DB8F4CA41BE7B53375C8770 /* Pods-KRCircularProgressBar_Tests-dummy.m */; };
 		3F7F7BAF3841CFB6A01425EEC9BE8911 /* Pods-KRCircularProgressBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9410CA020ADFB8D666DB5D0866280E6 /* Pods-KRCircularProgressBar_Example-dummy.m */; };
 		51926F4B45A5A308C25913A0F40EF76A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		8E2DEF8D89387B381D00FA5EFC544F6E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA17E7F4833AF6B3E3DDE35FF1F2597E /* ReplaceMe.swift */; };
+		52748538213934D000426AA4 /* KRCircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52748537213934D000426AA4 /* KRCircularProgressBar.swift */; };
 		A0C9A0F330228AF2F1F1C61096C6A481 /* KRCircularProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 163B0042F5F22524C473DAEECBE863A9 /* KRCircularProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A3A5182736DDF075D8CC133F53EDCE8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		B1014284D0EDA12225336210C5DE5324 /* Pods-KRCircularProgressBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 751DC697E63636A809966506DBB4BED5 /* Pods-KRCircularProgressBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,33 +38,33 @@
 
 /* Begin PBXFileReference section */
 		03DC7DA019C5A482E5BDA2CC1AA96059 /* Pods-KRCircularProgressBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRCircularProgressBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0ACD27FD6697AACA8FCCDC1FEE399334 /* Pods_KRCircularProgressBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRCircularProgressBar_Example.framework; path = "Pods-KRCircularProgressBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ACD27FD6697AACA8FCCDC1FEE399334 /* Pods_KRCircularProgressBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRCircularProgressBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B041819494D2A9FF1E2B2487399F7DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15E764EF3066239464955B689A25BE36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		15E764EF3066239464955B689A25BE36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		163B0042F5F22524C473DAEECBE863A9 /* KRCircularProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRCircularProgressBar-umbrella.h"; sourceTree = "<group>"; };
 		2A9F2F341DB8F4CA41BE7B53375C8770 /* Pods-KRCircularProgressBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRCircularProgressBar_Tests-dummy.m"; sourceTree = "<group>"; };
 		2C300FBBC068C151FE5196137BFED5E8 /* Pods-KRCircularProgressBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRCircularProgressBar_Example-resources.sh"; sourceTree = "<group>"; };
 		2EB81A1FB4DCD5E16F366FE6DA8D2C24 /* Pods-KRCircularProgressBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRCircularProgressBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3AB0DBA4B23D1A7FFB849BD73BCAA84A /* Pods-KRCircularProgressBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRCircularProgressBar_Tests-resources.sh"; sourceTree = "<group>"; };
-		568F8D7A8303CCEE8AD4E05F2E698C16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		52748537213934D000426AA4 /* KRCircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = KRCircularProgressBar.swift; path = KRCircularProgressBar/Classes/KRCircularProgressBar.swift; sourceTree = "<group>"; };
+		568F8D7A8303CCEE8AD4E05F2E698C16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		57331FC24C8BDBAF8BE0D7E1F310C949 /* Pods-KRCircularProgressBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRCircularProgressBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		751DC697E63636A809966506DBB4BED5 /* Pods-KRCircularProgressBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRCircularProgressBar_Example-umbrella.h"; sourceTree = "<group>"; };
 		7DE3B64DA5C3428B9C40976C1A5032E5 /* Pods-KRCircularProgressBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRCircularProgressBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		933FC1E0B080AF098BAAB782310B2EF7 /* KRCircularProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRCircularProgressBar.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3929F0C9E76CE504DDF3EFD508D574B /* KRCircularProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KRCircularProgressBar.modulemap; sourceTree = "<group>"; };
 		A3BF410F1C7FD2ECC997DFACCDD41D33 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A75A6B2757AD76F0E82837A1ADA40E25 /* Pods-KRCircularProgressBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRCircularProgressBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A86C1D28314674B713F114477005CAE6 /* Pods-KRCircularProgressBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRCircularProgressBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		AD604020288FAC100019003E08EAD294 /* Pods-KRCircularProgressBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KRCircularProgressBar_Example.modulemap"; sourceTree = "<group>"; };
 		B074CAF943ECCEAA1016C6179F91B39A /* KRCircularProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRCircularProgressBar-dummy.m"; sourceTree = "<group>"; };
-		B0A5C5FAB1C90638008528BD7598CB86 /* KRCircularProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRCircularProgressBar.framework; path = KRCircularProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B313CF909223DF2F3127F5069EE99AFA /* Pods_KRCircularProgressBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRCircularProgressBar_Tests.framework; path = "Pods-KRCircularProgressBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A5C5FAB1C90638008528BD7598CB86 /* KRCircularProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRCircularProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B313CF909223DF2F3127F5069EE99AFA /* Pods_KRCircularProgressBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRCircularProgressBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79D00EB9AD25181239AE382A49BE295 /* KRCircularProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRCircularProgressBar-prefix.pch"; sourceTree = "<group>"; };
 		BFAD68A4CF34EAC0B235A553090BF64A /* Pods-KRCircularProgressBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRCircularProgressBar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CA17E7F4833AF6B3E3DDE35FF1F2597E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KRCircularProgressBar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		CCC211284197FCDB46CE63F88C3ECCEC /* KRCircularProgressBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KRCircularProgressBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CCC211284197FCDB46CE63F88C3ECCEC /* KRCircularProgressBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KRCircularProgressBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D0160CBE65BDC5E72C850122DE9D8546 /* Pods-KRCircularProgressBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRCircularProgressBar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		D29B166634DDA6DA7903953BBC7D0246 /* Pods-KRCircularProgressBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRCircularProgressBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D835F9FE9A38803A81539E7885E99731 /* Pods-KRCircularProgressBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRCircularProgressBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -211,9 +211,9 @@
 		AA3D92F1D97EA0D309A0133274E0CC31 /* KRCircularProgressBar */ = {
 			isa = PBXGroup;
 			children = (
-				CA17E7F4833AF6B3E3DDE35FF1F2597E /* ReplaceMe.swift */,
 				5E06B46D9BB79965E0E34FD5DDA8295F /* Pod */,
 				25D1537ED1FE1A0AAF304269F70F5458 /* Support Files */,
+				52748537213934D000426AA4 /* KRCircularProgressBar.swift */,
 			);
 			name = KRCircularProgressBar;
 			path = ../..;
@@ -318,6 +318,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					0A0B47726A957FE7422306D86275709D = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -343,8 +348,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52748538213934D000426AA4 /* KRCircularProgressBar.swift in Sources */,
 				B8C43675CA1018D9E287F25583B544BB /* KRCircularProgressBar-dummy.m in Sources */,
-				8E2DEF8D89387B381D00FA5EFC544F6E /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +391,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 933FC1E0B080AF098BAAB782310B2EF7 /* KRCircularProgressBar.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -676,6 +682,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 933FC1E0B080AF098BAAB782310B2EF7 /* KRCircularProgressBar.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
