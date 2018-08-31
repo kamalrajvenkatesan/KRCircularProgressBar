@@ -5,14 +5,14 @@
 //  Created by kamalraj venkatesan on 31/08/18.
 //
 
-@objc protocol KRCircularProgressBarDelegate {
+@objc public protocol KRCircularProgressBarDelegate {
   @objc optional func processCompleted()
 }
 
 import UIKit
 
 @IBDesignable
-class KRCircularProgressBar: UIView {
+public class KRCircularProgressBar: UIView {
 
   /** Radius of the Circular progress bar */
   @IBInspectable var radius: CGFloat = 10.0
@@ -55,14 +55,14 @@ class KRCircularProgressBar: UIView {
 
       shapeLayer.add(basicAnimation, forKey: "ProgressBar")
 
-      //      if progress == 1.0 {
-      //        self.processCompleted()
-      //      }
+      if progress == 1.0 {
+        self.processCompleted()
+      }
 
     }
   }
 
-  override func draw(_ rect: CGRect) {
+  override public func draw(_ rect: CGRect) {
     super.draw(rect)
     self.centerPoint = CGPoint(x: rect.midX, y: rect.midY)
     updateView()
@@ -97,12 +97,12 @@ class KRCircularProgressBar: UIView {
 
     self.layer.addSublayer(shapeLayer)
 
+    self.backgroundColor = UIColor.clear
+
   }
 
   private func processCompleted() {
-    UIView.animate(withDuration: 0.2) {
-      self.transform = CGAffineTransform(scaleX: 0, y: 0)
-    }
+    self.delegate?.processCompleted?()
   }
 
 }
