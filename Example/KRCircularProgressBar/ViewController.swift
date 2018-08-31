@@ -56,7 +56,7 @@ extension ViewController: URLSessionDownloadDelegate {
 
     if let data = try? Data(contentsOf: location), let image = UIImage(data: data) {
       DispatchQueue.main.async {
-        self.imageView.contentMode = .scaleAspectFit
+        self.imageView.contentMode = .scaleAspectFill
         self.imageView.clipsToBounds = true
         self.imageView.image = image
       }
