@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07DF22C5D1ABCE67BCB20F1F /* KRCircularProgressBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KRCircularProgressBar.podspec; path = ../KRCircularProgressBar.podspec; sourceTree = "<group>"; };
+		07DF22C5D1ABCE67BCB20F1F /* KRCircularProgressBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KRCircularProgressBar.podspec; path = ../KRCircularProgressBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		27B6D8D14569B60EEC1BE165 /* Pods_KRCircularProgressBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRCircularProgressBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF6152100BC9CF4B9FCAACF /* Pods-KRCircularProgressBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRCircularProgressBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KRCircularProgressBar_Tests/Pods-KRCircularProgressBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4229EE8B811A8A8D78FA5544 /* Pods-KRCircularProgressBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRCircularProgressBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KRCircularProgressBar_Example/Pods-KRCircularProgressBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -43,8 +43,8 @@
 		607FACE51AFB9204008FA782 /* KRCircularProgressBar_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRCircularProgressBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6EE7C6D2C22ED7F680415423 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		94AC904D4E206EF4B7E04727 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6EE7C6D2C22ED7F680415423 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		94AC904D4E206EF4B7E04727 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9925F96492AF51418C7C4C64 /* Pods_KRCircularProgressBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KRCircularProgressBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1DABF53207C4311098B61B6 /* Pods-KRCircularProgressBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KRCircularProgressBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KRCircularProgressBar_Example/Pods-KRCircularProgressBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
